@@ -1,0 +1,14 @@
+.container
+    display: flex
+    justify-content: space-between
+
+.column
+    flex: 1
+    // Añade un margen entre columnas si lo deseas
+    margin: 0 10px
+
+    // Primer y último elemento sin margen lateral para alinear con el contenedor
+    &:first-child
+        margin-left: 0
+    &:last-child
+        margin-right: 0

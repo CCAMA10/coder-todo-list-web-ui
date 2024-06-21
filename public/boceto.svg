@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="300">
+    <!-- Fondo -->
+    <rect width="100%" height="100%" fill="#F5F5F5" />
+
+    <!-- Título -->
+    <text x="50%" y="50" text-anchor="middle" font-size="24" fill="#333333">Tablero Kanban</text>
+
+    <!-- Columnas -->
+    <rect x="50" y="80" width="100" height="200" fill="#E0E0E0" />
+    <rect x="180" y="80" width="100" height="200" fill="#E0E0E0" />
+    <rect x="310" y="80" width="100" height="200" fill="#E0E0E0" />
+
+    <!-- Tarjetas -->
+    <rect x="60" y="100" width="80" height="40" fill="#FFC107" />
+    <rect x="190" y="160" width="80" height="40" fill="#FFC107" />
+    <rect x="320" y="220" width="80" height="40" fill="#FFC107" />
+
+    <!-- Etiquetas -->
+    <text x="80" y="120" text-anchor="middle" font-size="14" fill="#333333">Tarea 1</text>
+    <text x="210" y="180" text-anchor="middle" font-size="14" fill="#333333">Tarea 2</text>
+    <text x="340" y="240" text-anchor="middle" font-size="14" fill="#333333">Tarea 3</text>
+</svg>
