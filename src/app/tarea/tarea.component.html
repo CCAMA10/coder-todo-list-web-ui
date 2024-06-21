@@ -1,0 +1,21 @@
+
+<div>
+    {{index}}: {{tarea?.descripcion}}
+</div>
+
+@if(enumStatus.Backlog!=tarea?.status){ 
+    <button  (click)="changeStatus(enumStatus.Backlog)">Backlog</button>
+}
+
+@if(enumStatus.EnProceso!=tarea?.status){ 
+    <button (click)="changeStatus(enumStatus.EnProceso)">En Progreso</button>
+}
+
+@if(enumStatus.Finalizado!=tarea?.status){ 
+    <button (click)="changeStatus(enumStatus.Finalizado)">Finalizado</button>
+}
+
+
+
+
+

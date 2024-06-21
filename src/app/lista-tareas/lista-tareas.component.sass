@@ -1,14 +1,21 @@
 .container
     display: flex
     justify-content: space-between
+    text-align: center
 
 .column
     flex: 1
     // Añade un margen entre columnas si lo deseas
     margin: 0 10px
+    background-color: #f0f0f0  // Esto establece el fondo de las columnas a un gris claro
+
 
     // Primer y último elemento sin margen lateral para alinear con el contenedor
     &:first-child
         margin-left: 0
     &:last-child
         margin-right: 0
+
+    #mytitle
+       text.column
+       text-align: center
